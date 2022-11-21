@@ -7,7 +7,7 @@ pipeline{
 	  
 	  stages{
 	  
-	  stage("checkout"){
+	  stage("checkout1"){
 	   steps{
 	   git 'https://github.com/ashisnishanka/gitrealtime.git'
 	   }
